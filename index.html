@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Azqm – Политика за поверителност</title>
+<style>
+  :root { --bg: #ffffff; --text: #1a1f24; --muted: #5b6670; --accent: #1f9d55; --rule: #e3e7ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0e1116; --text: #e8ecef; --muted: #9aa5ae; --accent: #34d378; --rule: #222a31; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 6px; color: var(--accent); }
+  .date { color: var(--muted); margin: 0 0 20px; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 48px 0; }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Политика за поверителност — Azqm</h1>
+  <p class="date">Последна промяна: 5 октомври 2026 г.</p>
+  <p>Azqm („приложението“) е дневник на храненето. Тази политика обяснява какви данни използва приложението и къде отиват.</p>
+
+  <h2>Какви данни се пазят</h2>
+  <p>Всичко, което въвеждаш — профил (пол, възраст, ръст, тегло, цел), записи за храна, вода, тегло, гладуване, любими и собствени храни, настройки — се пази <strong>само на твоето устройство</strong>. Разработчикът няма сървър и не получава, не продава и не споделя тези данни. Няма регистрация, реклами и аналитични инструменти.</p>
+
+  <h2>Кога приложението използва интернет</h2>
+  <ul>
+    <li><strong>Баркод:</strong> при сканиране само номерът на баркода се изпраща към Open Food Facts (world.openfoodfacts.org), за да се получат хранителните стойности на продукта. Не се изпращат лични данни.</li>
+    <li><strong>Разпознаване от снимка (по избор):</strong> ако сам въведеш собствен API ключ за Google Gemini или OpenAI и снимаш храна, снимката се изпраща директно към избраната от теб услуга, за да бъде разпозната храната. За тези данни важат условията на съответната услуга. Ключът се пази шифрован на устройството (Android Keystore).</li>
+  </ul>
+
+  <h2>Разрешения</h2>
+  <p><strong>Камера</strong> — само за сканиране на баркод и снимане на храна, когато го направиш.</p>
+
+  <h2>Изнасяне и изтриване</h2>
+  <p>Можеш да изнесеш данните си (Excel, CSV, резервно копие JSON) от Настройки. Изтриването на приложението или „Изчисти данните“ в настройките на Android премахва всички данни безвъзвратно.</p>
+
+  <h2>Деца</h2>
+  <p>Приложението не е предназначено за лица под 18 години.</p>
+
+  <h2>Медицинско предупреждение</h2>
+  <p>Azqm не е медицинско изделие и не замества съвет от лекар.</p>
+
+  <h2>Контакт</h2>
+  <p><a href="mailto:toshko87@protonmail.com">toshko87@protonmail.com</a></p>
+
+  <hr>
+
+  <h1 lang="en">Privacy Policy — Azqm</h1>
+  <p class="date" lang="en">Last updated: 5 October 2026</p>
+  <div lang="en">
+    <p>All data you enter (profile, food, water, weight and fasting logs, favorites, custom foods, settings) is stored <strong>only on your device</strong>. The developer runs no server and does not receive, sell or share it. There is no sign-up, no ads and no analytics.</p>
+    <p>Network use: when you scan a barcode, only the barcode number is sent to Open Food Facts to look up the product. If you choose to enter your own Google Gemini or OpenAI API key and use photo recognition, the photo is sent directly to that service under its terms; the key is stored encrypted on the device.</p>
+    <p>Permissions: Camera — only for barcode scanning and food photos you take.</p>
+    <p>You can export your data from Settings. Uninstalling the app or clearing its storage deletes all data permanently. The app is not intended for children under 18 and is not a medical device.</p>
+    <p>Contact: <a href="mailto:toshko87@protonmail.com">toshko87@protonmail.com</a></p>
+  </div>
+</main>
+</body>
+</html>
